@@ -1,0 +1,58 @@
+/* Teksttype for hele siden */
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contactform p{
+  font-size: 14px;
+}
+
+/* Box hvor man skriver sit navn */
+input[type=text], select, textarea {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px;
+    border: 1px solid #D8C48D ;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+/* Box hvor man skriver sin mail */
+  input[type=email], select, textarea {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px; 
+    border: 1px solid #D8C48D ;
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  /* Send Knappen */
+  input[type=submit] {
+    background-color: rgb(255, 175, 175);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: grey;
+  }
+  
+  /* Baggrund */
+  .contactform {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  label{
+      font-size: 14px;
+  }

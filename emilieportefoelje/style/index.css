@@ -1,0 +1,16 @@
+/* Overskrift */
+.headline{
+    margin: 20px 0 0px 80px;
+    margin-left: 75px;
+    font-size: 14px;
+}
+
+/* Photo css */
+.photo{
+    border: #D8C48D solid 1px;
+    margin: 20px;
+}
+
+.picturecollage{
+    Display:flex;
+}

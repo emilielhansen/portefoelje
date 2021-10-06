@@ -1,0 +1,60 @@
+/* Baggrundsfave */
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+/* Kassen med boxene */
+.semesterbox{
+    display: flex;
+    margin-left: 110px;
+}
+
+/* Kassefarver/Design */
+.first, .second, .third{
+    border: #D8C48D solid 1px;
+    width: 350px;
+    height: 400px;
+    background-color: rgb(255, 222, 222);
+    margin: 30px;
+    margin-bottom: 80px;
+}
+
+.mainbox h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+/* De tre boxes tekst design */
+.first h3, .second h3, .third h3{
+    text-align: center;
+    margin: 30px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.first p, .second p, .third p{
+    margin: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.first a, .second a, .third a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Liste design */
+ul{
+    text-align: left;
+    margin-top: 30px;
+    font-weight: lighter;
+    list-style-type: '- ';
+    margin: 20px;
+}
+
+li{
+    margin: 30px;
+    font-size: 14px;
+}

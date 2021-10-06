@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+section h2{
+    margin: 30px;
+}
+
+.semesterheader a{
+    text-decoration: none;
+    color: black;
+    margin: 18px 30px 30px 30px;
+    font-size: 14px;
+}
+
+.semesterheader{
+    display: flex;
+    background-color: #D8C48D;
+    margin: 30px 0 30px 0;
+    height: 50px;
+}
+
+/* Photoshop */
+
+.photoshop{
+    margin: 30px;
+}
+
+.photoshop li{
+    list-style-type: '- ';
+    margin-top: 5px;
+    margin: 10px 30px 30px 30px;
+    font-size: 14px;
+}
+
+.picturetask .picturetaskpictures{
+    text-align: center;
+    margin-left: 50px;
+    display: flex;
+}
+
+.picturetaskpictures img{
+    margin: 0px 70px 30px 30px;
+}
+
+.picturetask{
+    border: #D8C48D solid 1px;
+    background-color: rgb(255, 222, 222);
+}
+
+.photoshop h3{
+    margin: 30px 30px 30px 0;
+    font-size: 25px;
+}
+
+.picturetask h4{
+    font-size: 18px;
+    text-decoration: underline;
+    margin: 30px;
+}
+
+.picturetask p{
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.picturetask h5{
+    margin-left: 30px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Adobe XD */
+
+.adobexd{
+    margin: 30px;
+}
+
+.adobexd li{
+    list-style-type: '- ';
+    margin-top: 5px;
+    margin: 10px 30px 30px 30px;
+    font-size: 14px;
+}
+
+.adobexd h3{
+    margin: 30px 30px 30px 0;
+    font-size: 25px;
+}
+
+.prototypetask{
+    border: #D8C48D solid 1px;
+    background-color: rgb(255, 222, 222);
+}
+
+.prototypetask h4{
+    font-size: 18px;
+    text-decoration: underline;
+    margin: 30px;
+}
+
+.prototypetask p{
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.prototypetask h5{
+    margin-left: 30px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.prototypetask .adobepictures{
+    margin: 30px 70px 30px 30px;
+    text-align: center;
+}
+
+.prototypetask a{
+    text-decoration: none;
+    color: black;
+    margin: 30px;
+    background-color: #D8C48D;
+    font-size: 14px;
+    
+}
